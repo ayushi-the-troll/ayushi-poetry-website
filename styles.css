@@ -16,14 +16,15 @@ paragraph: 'Lexend', sans-serif
 nav {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     padding: 10px;
 }
 
 button {
-    background-color: #F7A399;
+    background-color: #ffffff;
     color: #EF6351;
-    border-color: #ffffff;
+    border-color: #F7A399;
     border-radius: 3px;
     border-style: solid;
     font-family: 'Caprasimo';
