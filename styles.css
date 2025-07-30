@@ -81,8 +81,9 @@ p {
 .column {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     margin: 10px;
+    padding: 10px;
 }
 
 .poem {
@@ -91,8 +92,10 @@ p {
     justify-content: left;
     align-items: left;
     padding: 10px;
+    margin: 10px;
     border-radius: 5px;
     border-color: #EF6351;
     border-width: 2px;
     border-style: solid;
+    background-color: #F7A399;
 }
