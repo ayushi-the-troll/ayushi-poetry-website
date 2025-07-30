@@ -34,7 +34,7 @@ button {
 header {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: flex-start;
     padding: 20px;
 }
 
@@ -51,16 +51,19 @@ body {
 }
 
 h1 {
+    font-size: 40px;
     font-family: 'Caprasimo';
     font-weight: 300;
     color: #EF6351;
 }
 
 h4 {
+    font-size: 25px;
     font-family: 'Caprasimo';
     font-weight: 100;
     color: #EF6351;
     text-align: center;
+    margin: 8px;
 }
 
 p {
@@ -73,17 +76,17 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 10px;
-    margin: 10px;
-    padding: 10px;
+    align-items: top;
+    gap: 2px;
+    padding: 2px;
 }
 
 .column {
     display: flex;
     flex-direction: column;
     align-items: left;
-    margin: 10px;
-    padding: 10px;
+    margin: 2px;
+    padding: 5px;
 }
 
 .poem {
@@ -92,7 +95,7 @@ p {
     justify-content: left;
     align-items: left;
     padding: 10px;
-    margin: 10px;
+    margin: 2px;
     border-radius: 5px;
     border-color: #EF6351;
     border-width: 2px;
