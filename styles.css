@@ -30,6 +30,18 @@ button {
     padding: 7px;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+img {
+    width: 50px;
+    padding: 20px;
+}
+
 body {
     display: flex;
     flex-direction: column;
