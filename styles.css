@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap'); /* adding caprasimo font */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap'); /* adding lexend font */
+
+/*
+Color Palette:
+heading: #EF6351
+paragraph: #FFFFFF
+background: #FBC3BC
+shaded background: #F7A399
+
+Font Family:
+h1, h4: 'Caprasimo'
+paragraph: 'Lexend', sans-serif
+*/
+
 nav {
     display: flex;
     justify-content: center;
@@ -5,18 +20,48 @@ nav {
     padding: 10px;
 }
 
+button {
+    background-color: #F7A399;
+    color: #EF6351;
+    border-color: #ffffff;
+    border-radius: 3px;
+    border-style: solid;
+    font-family: 'Caprasimo';
+    padding: 7px;
+}
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #FBC3BC;
+}
+
+h1 {
+    font-family: 'Caprasimo';
+    font-weight: 300;
+    color: #EF6351;
+}
+
+h4 {
+    font-family: 'Caprasimo';
+    font-weight: 100;
+    color: #EF6351;
+    text-align: center;
+}
+
+p {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
 }
 
 .poem-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin: 20px;
+    gap: 10px;
+    margin: 10px;
     padding: 10px;
 }
 
@@ -32,5 +77,9 @@ body {
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    padding: 2px;
+    padding: 8px;
+    border-radius: 5px;
+    border-color: #EF6351;
+    border-width: 2px;
+    border-style: solid;
 }
